@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Program
 {
@@ -26,7 +26,9 @@ class Program
         while (true)
         {
             Console.Clear();
-            Console.WriteLine("============== MENU PESANAN ==============");
+            Console.WriteLine("==========================================");
+            Console.WriteLine("              |MENU PESANAN|");
+            Console.WriteLine("==========================================");
             Console.WriteLine("1. Makanan");
             for (int i = 0; i < makanan.GetLength(0); i++)
             {
